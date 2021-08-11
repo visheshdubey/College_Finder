@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeFinder">
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".SignUp2"></activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".HomeActivity" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/NoActionBar">

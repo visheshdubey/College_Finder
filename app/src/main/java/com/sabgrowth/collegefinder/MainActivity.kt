@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
 import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,6 +15,11 @@ class MainActivity : AppCompatActivity() {
 
         signup_btn.setOnClickListener {
             val intent = Intent(this, HomeActivity::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+        button2.setOnClickListener {
+            val intent = Intent(this, SignUp::class.java)
             // start your next activity
             startActivity(intent)
         }
